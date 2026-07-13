@@ -232,3 +232,14 @@ body { background:#000; text-align:center; padding:20px; }
   }
   #close { position:absolute; top:20px; right:30px; color:white; font-size:40px; cursor:pointer; }
   #full { position:absolute; bottom:20px; padding:10px 20px; background:white; border:none; border-radius:8px; cursor:pointer; }
+
+
+
+
+#logoactive {
+  background-color: black;  /* ganti warna background */
+  padding: 8px 15px;      /* kasih jarak biar keliatan */
+  border-radius: 8px;     /* biar sudutnya agak bulet */
+  color: white;           /* warna tulisan */
+  text-decoration: none;  /* ilangin garis bawah */
+}
