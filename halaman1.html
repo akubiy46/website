@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Gue - Artikel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <!-- NAVIGASI -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">DESKRIPSI</a>
+        <div class="nav-links">
+            <a href="index.html" class="active">Artikel</a>
+            <a href="video.html">Video Random</a>
+            
+            <a href="gallery.html">Gallery</a>
+        </div>
+    </nav>
+
+    <!-- ISI ARTIKEL -->
+    <div class="container">
+        <h1 class="judul">Judul Artikel Lu Di Sini</h1>
+        <p class="tanggal">Wonogiri, 18 Juni 2026</p>
+        
+        <!-- GANTI FOTO INI -->
+        <img src="img/foto1.jpg" alt="Foto artikel" class="gambar-artikel">
+        
+        <!-- GANTI TULISAN INI -->
+        <p>
+            Ini paragraf pertama artikel lu. Tinggal hapus tulisan ini terus ganti sama isi artikel lu sendiri. 
+            Bisa nulis panjang banget di sini.
+        </p>
+        
+        <h2>Sub Judul Artikel</h2>
+        <p>
+            Ini paragraf kedua. Tambah aja `<p>` baru kalau mau paragraf lagi. 
+            Mau tambah gambar lagi tinggal copas tag `<img>` di atas.
+        </p>
+        
+        <!-- CONTOH LIST -->
+        <h3>Poin Penting:</h3>
+        <ul>
+            <li>Poin pertama ganti ini</li>
+            <li>Poin kedua ganti ini</li>
+            <li>Poin ketiga ganti ini</li>
+        </ul>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 BY Biy. Dibuat di Acode.</p>
+    </footer>
+       <nav class="navbar">
+        
+        <div class="nav-links">
+            
+            <<a href="bantuan">bantuan</a>
+            <<a href="tentang saya">tentang saya</a>
+            <<a href="support me">support me</a>
+            
+<!-- KOTAK KOMENTAR KAYAK SOSMED -->
+<div class="comment-box">
+    <h3>Komentar</h3>
+    <input type="text" id="namaUser" placeholder="Nama kamu...">
+    <textarea id="isiKomen" placeholder="Tulis komentar..."></textarea>
+
+    <!-- Input file baru -->
+    <input type="file" id="fileKomen" accept="image/*,video/*">
+    <small style="color:#888">Bisa upload foto/video</small>
+
+    <br><br>
+    <button id="btnKirim">Kirim</button>
+    <button id="btnHapus" class="btn-hapus">Hapus Semua</button>
+    <div id="daftarKomen"></div>
+</div>
+    
+    
+    
+    
+
+            
+
+        
+        
+        
+        
+    <script src="script.js"></script>
+</body>
+</html>

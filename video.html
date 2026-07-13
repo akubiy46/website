@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Gue - Video</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVIGASI -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">Video</a>
+        <div class="nav-links">
+            <a href="halaman1.html">Artikel</a>
+            <a href="video.html" class="active">Video Random</a>
+            <a href="gallery.html">Gallery</a> <!-- Ini yg bener -->
+        </div>
+    </nav>
+
+    <div id="daftarVideo"></div>
+
+    <!-- KOTAK KOMENTAR KAYAK SOSMED -->
+    <div class="comment-box">
+        <h3>Komentar</h3>
+        <input type="text" id="namaUser" placeholder="Nama kamu...">
+        <textarea id="isiKomen" placeholder="Tulis komentar..."></textarea>
+        <button id="btnKirim">Kirim</button>
+        <button id="btnHapus" class="btn-hapus">Hapus Semua</button>
+        <div id="daftarKomen"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 BY Biy . Dibuat di Acode.</p>
+    </footer>
+</body>
+</html>

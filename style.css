@@ -1,0 +1,234 @@
+/* ===== PENGATURAN DASAR ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #1f2937;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ===== NAVIGASI ATAS ===== */
+.navbar {
+    background-color: #1f2937;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -20px -20px 20px -20px; /* Biar full width */
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links a {
+    color: #d1d5db;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.nav-links a:hover {
+    background-color: #374151;
+}
+
+.nav-links a.active {
+    background-color: #3b82f6;
+    color: white;
+}
+
+/* ===== CONTAINER UTAMA ===== */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.judul {
+    font-size: 32px;
+    color: #111827;
+    margin-bottom: 5px;
+}
+
+.tanggal {
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* ===== HALAMAN ARTIKEL ===== */
+.gambar-artikel {
+    width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #1d4ed8;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ===== HALAMAN VIDEO ===== */
+#daftarVideo {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.video-box {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.video-utama {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Rasio 16:9 biar nggak gepeng */
+    height: 0;
+    background: #000;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.video-utama iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.judul-video {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #050505;
+}
+
+/* ===== KOTAK KOMENTAR ===== */
+.comment-box {
+    max-width: 500px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.comment-box input, .comment-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: Arial;
+}
+
+.comment-box input[type="file"] {
+    color: #333;
+    border: none;
+}
+
+.comment-box button {
+    background: #1877f2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px 5px 5px 0;
+}
+
+.comment-box button:hover {
+    opacity: 0.9;
+}
+
+.btn-hapus {
+    background: #e41e3f !important;
+}
+
+.btn-hapus:hover {
+    background: #c41730 !important;
+}
+
+#daftarKomen {
+    margin-top: 20px;
+}
+
+.komen-media {
+    max-width: 100%;      /* Biar nggak meleber keluar box */
+    max-height: 250px;    /* BATAS TINGGI MAX 250px */
+    width: auto;          /* Lebar ngikutin rasio */
+    height: auto;         /* Tinggi ngikutin rasio */
+    border-radius: 8px;
+    margin-top: 10px;
+    display: block;       /* Biar nggak ada spasi aneh */
+    object-fit: contain;  /* Biar nggak gepeng, ada padding item */
+}
+
+
+
+
+
+
+
+
+/* gallery */
+
+body { background:#000; text-align:center; padding:20px; }
+  
+  /* Thumbnail */
+  .thumb { width:150px; margin:10px; border-radius:8px; cursor:pointer; }
+
+  /* Popup Layar 480x800 */
+  #popup {
+    display:none; 
+    position:fixed; top:0; left:0; 
+    width:100%; height:100%; 
+    background:rgba(0,0,0,0.9); 
+    justify-content:center; align-items:center;
+  }
+  #popup img {
+    width:480px; 
+    height:800px; 
+    object-fit:contain; /* biar ga gepeng */
+    background:#000;
+    border-radius:10px;
+  }
+  #close { position:absolute; top:20px; right:30px; color:white; font-size:40px; cursor:pointer; }
+  #full { position:absolute; bottom:20px; padding:10px 20px; background:white; border:none; border-radius:8px; cursor:pointer; }
