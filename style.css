@@ -15,7 +15,7 @@ body {
 
 /* ===== NAVIGASI ATAS ===== */
 .navbar {
-    background-color: black;
+    background-color: white;
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
