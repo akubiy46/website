@@ -24,7 +24,7 @@ body {
 }
 
 .logo {
-    color: black;
+    color: white;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
@@ -40,7 +40,7 @@ body {
 }
 
 .nav-links a:hover {
-    background-color: #374151;
+    background-color: black;
 }
 
 .nav-links a.active {
