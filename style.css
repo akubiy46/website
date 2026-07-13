@@ -238,7 +238,7 @@ body { background:#000; text-align:center; padding:20px; }
 
 
 #logoactive {
-  background-color: black;  /* ganti warna background */
+  background-color: blue;  /* ganti warna background */
   padding: 8px 15px;      /* kasih jarak biar keliatan */
   border-radius: 8px;     /* biar sudutnya agak bulet */
   color: white;           /* warna tulisan */
