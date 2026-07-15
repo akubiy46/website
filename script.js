@@ -1,18 +1,18 @@
 const daftarVideoWeb = [
     {
         tipe: "embed",
-        kode: '<iframe src="https://www.xvv1deos.com/embedframe/vceealcf91" frameborder=0 width=510 height=400 scrolling=no eborder="0" allowfullscreen></iframe>',
-        judul: "rodok,",
-        deskripsi: "ini adalah film rodok merodok"
+        kode: '<iframe src="https://www.eos.com/embedframe/vceealcf91" frameborder=0 width=510 height=400 scrolling=no eborder="0" allowfullscreen></iframe>',
+        judul: "rodk,",
+        deskripsi: "ini adalah film "
     },
     {
         tipe: "embed",
-        kode: '<iframe src="https://www.eporner.com/embed/RBhm3Q0wNMj/" frameborder="0" allowfullscreen></iframe>',
+        kode: '<iframe src="https://www.er.com/embed/RBhm3Q0wNMj/" frameborder="0" allowfullscreen></iframe>',
         judul: "Video Kedua Mantap"
     },
     {
         tipe: "embed",
-        kode: '<iframe src="https://www.eporner.com/embed/cb5beoqOFKQ/" frameborder="0" allowfullscreen></iframe>',
+        kode: '<iframe src="https://www.er.com/embed/cb5beoqOFKQ/" frameborder="0" allowfullscreen></iframe>',
         judul: "Video Ketiga Bejibun"
     },
     {
