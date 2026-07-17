@@ -1,8 +1,8 @@
 const daftarVideoWeb = [
     {
         tipe: "embed",
-        kode: '<iframe src="https://www.eos.com/embedframe/vceealcf91" frameborder=0 width=510 height=400 scrolling=no eborder="0" allowfullscreen></iframe>',
-        judul: "rodk,",
+        kode: '<iframe src="" frameborder=0 width=510 height=400 scrolling=no eborder="0" allowfullscreen></iframe>',
+        judul: ",",
         deskripsi: "ini adalah film "
     },
     {
@@ -85,8 +85,8 @@ const daftarVideoWeb = [
     {
     tipe: "embed",
     kode: '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1005461628539685%2F&show_text=false&width=500" width="100%" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>',
-    judul: "Video Reel FB",
-    deskripsi: "Video kocak dari Facebook Reel"
+    judul: "dlychan",
+    deskripsi: "Video  dari Facebook Reel"
 }
     
     
