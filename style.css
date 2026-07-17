@@ -109,7 +109,7 @@ li {
 }
 
 .video-box {
-    background: white;
+    background: gray;
     padding: 15px;
     border-radius: 12px;
     margin-bottom: 30px;
@@ -166,7 +166,7 @@ li {
 }
 
 .comment-box button {
-    background: #1877f2;
+    background: gray;
     color: white;
     padding: 10px 20px;
     border: none;
