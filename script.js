@@ -7,12 +7,12 @@ const daftarVideoWeb = [
     },
     {
         tipe: "embed",
-        kode: '<iframe src="https://www.er.com/embed/RBhm3Q0wNMj/" frameborder="0" allowfullscreen></iframe>',
+        kode: '<iframe src="" frameborder="0" allowfullscreen></iframe>',
         judul: "Video Kedua Mantap"
     },
     {
         tipe: "embed",
-        kode: '<iframe src="https://www.er.com/embed/cb5beoqOFKQ/" frameborder="0" allowfullscreen></iframe>',
+        kode: '<iframe src="" frameborder="0" allowfullscreen></iframe>',
         judul: "Video Ketiga Bejibun"
     },
     {
